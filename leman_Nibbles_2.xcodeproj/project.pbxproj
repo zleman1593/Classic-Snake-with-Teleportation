@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113E5E87184584870067E914 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5E82184584870067E914 /* Node.m */; };
+		113E5E88184584870067E914 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5E83184584870067E914 /* List.m */; };
+		113E5E89184584870067E914 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5E86184584870067E914 /* Queue.m */; };
+		113E5E8C184620EB0067E914 /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5E8B184620EA0067E914 /* Direction.m */; };
 		11885B60184024BD00565B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11885B5F184024BD00565B76 /* Foundation.framework */; };
 		11885B62184024BD00565B76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11885B61184024BD00565B76 /* CoreGraphics.framework */; };
 		11885B64184024BD00565B76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11885B63184024BD00565B76 /* UIKit.framework */; };
@@ -21,6 +25,9 @@
 		11885B81184024BD00565B76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11885B63184024BD00565B76 /* UIKit.framework */; };
 		11885B89184024BD00565B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11885B87184024BD00565B76 /* InfoPlist.strings */; };
 		11885B8B184024BD00565B76 /* leman_Nibbles_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11885B8A184024BD00565B76 /* leman_Nibbles_2Tests.m */; };
+		11885B961840258100565B76 /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = 11885B951840258100565B76 /* Environment.m */; };
+		11885B99184042F400565B76 /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = 11885B98184042F400565B76 /* World.m */; };
+		11885B9F1841924500565B76 /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 11885B9E1841924400565B76 /* Snake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113E5E81184584870067E914 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		113E5E82184584870067E914 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		113E5E83184584870067E914 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		113E5E84184584870067E914 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		113E5E85184584870067E914 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		113E5E86184584870067E914 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		113E5E8A184620EA0067E914 /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Direction.h; path = ../Direction.h; sourceTree = "<group>"; };
+		113E5E8B184620EA0067E914 /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Direction.m; path = ../Direction.m; sourceTree = "<group>"; };
 		11885B5C184024BD00565B76 /* leman_Nibbles_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leman_Nibbles_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11885B5F184024BD00565B76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11885B61184024BD00565B76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +68,13 @@
 		11885B86184024BD00565B76 /* leman_Nibbles_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "leman_Nibbles_2Tests-Info.plist"; sourceTree = "<group>"; };
 		11885B88184024BD00565B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11885B8A184024BD00565B76 /* leman_Nibbles_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leman_Nibbles_2Tests.m; sourceTree = "<group>"; };
+		11885B941840258100565B76 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		11885B951840258100565B76 /* Environment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Environment.m; sourceTree = "<group>"; };
+		11885B97184042F400565B76 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = ../World.h; sourceTree = "<group>"; };
+		11885B98184042F400565B76 /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = World.m; path = ../World.m; sourceTree = "<group>"; };
+		11885B9A184045B900565B76 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		11885B9D1841924400565B76 /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		11885B9E1841924400565B76 /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +104,12 @@
 		11885B53184024BD00565B76 = {
 			isa = PBXGroup;
 			children = (
+				113E5E81184584870067E914 /* List.h */,
+				113E5E83184584870067E914 /* List.m */,
+				113E5E84184584870067E914 /* Node.h */,
+				113E5E82184584870067E914 /* Node.m */,
+				113E5E85184584870067E914 /* Queue.h */,
+				113E5E86184584870067E914 /* Queue.m */,
 				11885B65184024BD00565B76 /* leman_Nibbles_2 */,
 				11885B84184024BD00565B76 /* leman_Nibbles_2Tests */,
 				11885B5E184024BD00565B76 /* Frameworks */,
@@ -112,11 +140,20 @@
 		11885B65184024BD00565B76 /* leman_Nibbles_2 */ = {
 			isa = PBXGroup;
 			children = (
+				11885B9A184045B900565B76 /* Constants.h */,
 				11885B6E184024BD00565B76 /* AppDelegate.h */,
 				11885B6F184024BD00565B76 /* AppDelegate.m */,
+				11885B97184042F400565B76 /* World.h */,
+				11885B98184042F400565B76 /* World.m */,
+				113E5E8A184620EA0067E914 /* Direction.h */,
+				113E5E8B184620EA0067E914 /* Direction.m */,
 				11885B71184024BD00565B76 /* Main.storyboard */,
 				11885B74184024BD00565B76 /* ViewController.h */,
 				11885B75184024BD00565B76 /* ViewController.m */,
+				11885B9D1841924400565B76 /* Snake.h */,
+				11885B9E1841924400565B76 /* Snake.m */,
+				11885B941840258100565B76 /* Environment.h */,
+				11885B951840258100565B76 /* Environment.m */,
 				11885B77184024BD00565B76 /* Images.xcassets */,
 				11885B66184024BD00565B76 /* Supporting Files */,
 			);
@@ -249,7 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11885B9F1841924500565B76 /* Snake.m in Sources */,
 				11885B76184024BD00565B76 /* ViewController.m in Sources */,
+				113E5E87184584870067E914 /* Node.m in Sources */,
+				113E5E8C184620EB0067E914 /* Direction.m in Sources */,
+				113E5E89184584870067E914 /* Queue.m in Sources */,
+				11885B99184042F400565B76 /* World.m in Sources */,
+				11885B961840258100565B76 /* Environment.m in Sources */,
+				113E5E88184584870067E914 /* List.m in Sources */,
 				11885B70184024BD00565B76 /* AppDelegate.m in Sources */,
 				11885B6C184024BD00565B76 /* main.m in Sources */,
 			);
@@ -462,6 +506,7 @@
 				11885B90184024BD00565B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11885B91184024BD00565B76 /* Build configuration list for PBXNativeTarget "leman_Nibbles_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +515,7 @@
 				11885B93184024BD00565B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

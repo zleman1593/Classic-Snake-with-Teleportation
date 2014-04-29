@@ -1,0 +1,230 @@
+{
+    "assets": [
+        {
+            "asset": "leman_Nibbles_2/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "leman_Nibbles_2/Base.lproj/Main.storyboard", 
+            "target": null
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "leman_Nibbles_2", 
+        "APPLICATION_IDENTIFIER": "_593.leman_Nibbles_2", 
+        "APPLICATION_NAME": "leman_Nibbles_2", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "leman_Nibbles_2", 
+            "PRODUCT_NAME": "leman_Nibbles_2"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreGraphics", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "leman_Nibbles_2-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "leman_Nibbles_2-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "leman_Nibbles_2-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "leman_Nibbles_2-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "leman_Nibbles_2/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "Constants.h": {
+                    "key": "Constants.h", 
+                    "prefix": "leman_Nibbles_2/", 
+                    "suffix": "Constants.h"
+                }, 
+                "Direction.h": {
+                    "key": "Direction.h", 
+                    "prefix": "./", 
+                    "suffix": "Direction.h"
+                }, 
+                "Environment.h": {
+                    "key": "Environment.h", 
+                    "prefix": "leman_Nibbles_2/", 
+                    "suffix": "Environment.h"
+                }, 
+                "List.h": {
+                    "key": "List.h", 
+                    "prefix": "./", 
+                    "suffix": "List.h"
+                }, 
+                "Node.h": {
+                    "key": "Node.h", 
+                    "prefix": "./", 
+                    "suffix": "Node.h"
+                }, 
+                "Queue.h": {
+                    "key": "Queue.h", 
+                    "prefix": "./", 
+                    "suffix": "Queue.h"
+                }, 
+                "Snake.h": {
+                    "key": "Snake.h", 
+                    "prefix": "leman_Nibbles_2/", 
+                    "suffix": "Snake.h"
+                }, 
+                "ViewController.h": {
+                    "key": "ViewController.h", 
+                    "prefix": "leman_Nibbles_2/", 
+                    "suffix": "ViewController.h"
+                }, 
+                "World.h": {
+                    "key": "World.h", 
+                    "prefix": "./", 
+                    "suffix": "World.h"
+                }, 
+                "leman_Nibbles_2-Prefix.pch": {
+                    "key": "leman_Nibbles_2-Prefix.pch", 
+                    "prefix": "leman_Nibbles_2/", 
+                    "suffix": "leman_Nibbles_2-Prefix.pch"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./leman_Nibbles_2/leman_Nibbles_2-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./leman_Nibbles_2/leman_Nibbles_2-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Direction.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "List.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Node.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Queue.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "World.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "leman_Nibbles_2/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "leman_Nibbles_2/Environment.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "leman_Nibbles_2/Snake.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "leman_Nibbles_2/ViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "leman_Nibbles_2/main.m"
+        }
+    ], 
+    "type": "app", 
+    "version": "1", 
+    "xcode_project": "leman_Nibbles_2.xcodeproj"
+}
